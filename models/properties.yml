@@ -7,7 +7,7 @@ sources:
       - name: raw_country
 
 models:
-  - name: users_country_combine_data
+  - name: "users_country_combine_data"
     description: "Combines user data with country data"
     config:
       materialized: 'table'
