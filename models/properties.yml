@@ -8,7 +8,6 @@ sources:
 
 models:
   - name: "users_country_combine_data"
-    description: "Combines user data with country data"
     config:
       materialized: 'table'
 
