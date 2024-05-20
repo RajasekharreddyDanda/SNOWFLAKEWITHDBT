@@ -1,0 +1,14 @@
+sources:
+  - name: "source table's info"
+    database: CLASS4
+    schema: ASSIGNMENT  
+    tables:
+      - name: raw_users
+      - name: raw_country
+
+models:
+  - name: "users_country_combine_data"
+    config:
+      materialized: 'table'
+
+
